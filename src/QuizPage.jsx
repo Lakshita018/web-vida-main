@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { database, ref, push } from "./firebaseConfig"; // Firebase imports
 import "./App.css";
 import logo from "./logo.png";
+import isteLogo from './isteLogo.png'; 
 
 const questions = [
   { id: 0, type: "mcq", question: "What does “DNS” stand for in networking?", options: [" Domain Name System", "Dynamic Network Service", "Digital Naming Structure", "Data Navigation System"], answer: "Domain Name System" },
@@ -289,6 +290,9 @@ export default function QuizPage() {
   };
   return (
     <div className="quiz-page">
+       <div className="iste-logo-container">
+          <img src={isteLogo} alt="ISTE Logo" className="iste-logo" />
+        </div>
       <div className="logo-container">
         <img src={logo} alt="Logo" className="logo" />
       </div>

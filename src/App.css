@@ -10,6 +10,22 @@ body {
   align-items: center;
   overflow: hidden;
 }
+.iste-logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.iste-logo {
+  width: auto;
+  height: 100px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.iste-logo:hover {
+  transform: scale(1.1);
+}
 
 .registration-container , .quiz-page {
   display: grid;

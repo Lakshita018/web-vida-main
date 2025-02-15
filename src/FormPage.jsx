@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { database, ref, push } from "./firebaseConfig";
-import logo from "./logo.png"; 
+import logo from "./logo.png";
+import isteLogo from './isteLogo.png'; 
 import "./App.css";
 
 export default function FormPage() {
@@ -37,6 +38,9 @@ export default function FormPage() {
   
     return (
       <div className="registration-container">
+        <div className="iste-logo-container">
+    <img src={isteLogo} alt="ISTE Logo" className="iste-logo" />
+  </div>
         <div className="logo-container">
           <img src={logo} alt="Logo" className="logo" />
         </div>
