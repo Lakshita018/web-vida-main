@@ -62,7 +62,7 @@ const questions = [
     options: [
       "HTML",
       "CSS",
-      "Python",
+      "Latex",
       "JavaScript"
     ],
     answer: "JavaScript"
