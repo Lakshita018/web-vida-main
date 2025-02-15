@@ -24,9 +24,9 @@ const questions = [
     type: "mcq",
     question: 'What is the output of System.out.println(10 + 20 + "Hello");?',
     options: [
-      "30Hello",
       "1020Hello",
       "10 + 20Hello",
+      "30Hello",
       "Hello30"
     ],
     answer: "30Hello"
@@ -48,9 +48,9 @@ const questions = [
     type: "mcq",
     question: "What is the purpose of the z-index property in CSS?",
     options: [
-      "It controls the vertical stacking order of elements",
       "It adjusts the transparency of an element",
       "It defines the width and height of an element",
+      "It controls the vertical stacking order of elements",
       "It sets the spacing between elements"
     ],
     answer: "It controls the vertical stacking order of elements"
@@ -60,10 +60,10 @@ const questions = [
     type: "mcq",
     question: "Which programming language is commonly used for adding interactivity to web pages?",
     options: [
-      "JavaScript",
       "HTML",
       "CSS",
-      "Python"
+      "Python",
+      "JavaScript"
     ],
     answer: "JavaScript"
   },
@@ -84,18 +84,18 @@ const questions = [
     type: "mcq",
     question: "Which of the following is used to handle errors in asynchronous functions in JavaScript?",
     options: [
-      "try...catch",
       "async...await",
       "promise...catch",
+      "try...catch",
       "await...throw"
     ],
-    answer: "async...await"
+    answer: "try...catch"
   }, {
     id: 8,
     type: "mcq",
     question: "Which HTTP method is typically used to create new resources on a server?",
     options: [
-      "GET",
+      "UPDATE",
       "POST",
       "PUT",
       "DELETE"
@@ -108,8 +108,8 @@ const questions = [
     question: "Which Git command is used to upload local repository content to a remote repository?",
     options: [
       "git pull",
-      "git push",
       "git clone",
+      "git push",
       "git commit"
     ],
     answer: "git push"
@@ -143,10 +143,10 @@ const questions = [
     type: "mcq",
     question: "Which method is used to convert a JavaScript object into a JSON string?",
     options: [
-      "JSON.stringify()",
       "JSON.parse()",
       "JSON.toString()",
-      "JSON.convert()"
+      "JSON.convert()",
+      "JSON.stringify()"
     ],
     answer: "JSON.stringify()"
   },
@@ -155,9 +155,9 @@ const questions = [
     type: "mcq",
     question: "Which of the following middleware is used to parse JSON data in Express.js?",
     options: [
-      "express.json()",
       "bodyParser.urlencoded()",
       "express.static()",
+      "express.json()",
       "multer()"
     ],
     answer: "express.json()"
@@ -167,8 +167,8 @@ const questions = [
     type: "mcq",
     question: "Which of the following is used to install a package globally in Node.js?",
     options: [
-      "npm install -g package_name",
       "npm install package_name",
+      "npm install -g package_name",
       "node install package_name",
       "npm global package_name"
     ],
