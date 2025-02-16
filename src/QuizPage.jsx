@@ -6,7 +6,7 @@ import logo from "./logo.png";
 import isteLogo from './isteLogo.png'; 
 
 const questions = [
-  { id: 0, type: "mcq", question: "What does “DNS” stand for in networking?", options: [" Domain Name System", "Dynamic Network Service", "Digital Naming Structure", "Data Navigation System"], answer: "Domain Name System" },
+  { id: 0, type: "mcq", question: "What does “DNS” stand for in networking?", options: [" Domain Name System", "Domain Name Server", "Digital Naming Structure", "Data Navigation System"], answer: "Domain Name System" },
   {
     id: 1,
     type: "mcq",
