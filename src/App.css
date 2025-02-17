@@ -169,12 +169,17 @@ body {
 .option input[type="radio"] {
   margin-right: 10px;
   flex-shrink: 0;
+  
 }
 
 .option label {
   flex-grow: 1;
+  margin: 0;
   text-align: left;
   color: #fff;
+  line-height: 1.5em; /* Consistent line height */
+  display: flex;
+  align-items: center;
 }
 
 /* .text-input {

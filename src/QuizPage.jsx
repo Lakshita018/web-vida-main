@@ -6,7 +6,7 @@ import logo from "./logo.png";
 import isteLogo from './isteLogo.png'; 
 
 const questions = [
-  { id: 0, type: "mcq", question: "What does “DNS” stand for in networking?", options: [" Domain Name System", "Domain Name Server", "Digital Naming Structure", "Data Navigation System"], answer: "Domain Name System" },
+  { id: 0, type: "mcq", question: "What does “DNS” stand for in networking?", options: [" Domain Name System", "Domain Name Server", "Digital Naming Structure", "Data Navigation System"], answer: "Domain Name Server" },
   {
     id: 1,
     type: "mcq",
@@ -49,8 +49,8 @@ const questions = [
     question: "What is the purpose of the z-index property in CSS?",
     options: [
       "It adjusts the transparency of an element",
-      "It defines the width and height of an element",
       "It controls the vertical stacking order of elements",
+      "It defines the width and height of an element",      
       "It sets the spacing between elements"
     ],
     answer: "It controls the vertical stacking order of elements"
@@ -121,7 +121,7 @@ const questions = [
     options: [
       "MySQL",
       "MongoDB",
-      "PostgreSQL",
+      "Oracle",
       "SQLite"
     ],
     answer: "MongoDB"
@@ -155,7 +155,7 @@ const questions = [
     type: "mcq",
     question: "Which of the following middleware is used to parse JSON data in Express.js?",
     options: [
-      "bodyParser.urlencoded()",
+      "bodyParser.json()",
       "express.static()",
       "express.json()",
       "multer()"
