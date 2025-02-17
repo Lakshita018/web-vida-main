@@ -179,7 +179,7 @@ const questions = [
 export default function QuizPage() {
   const navigate = useNavigate();
   const [teamName, setTeamName] = useState(localStorage.getItem("teamName") || "Unknown Team");
-  const [timeLeft, setTimeLeft] = useState(30 * 60);
+  const [timeLeft, setTimeLeft] = useState(20 * 60);
 
 useEffect(() => {
   const savedTime = localStorage.getItem(`quizTimeLeft_${teamName}`);
