@@ -39,8 +39,8 @@ export default function FormPage() {
     return (
       <div className="registration-container">
         <div className="iste-logo-container">
-    <img src={isteLogo} alt="ISTE Logo" className="iste-logo" />
-  </div>
+          <img src={isteLogo} alt="ISTE Logo" className="iste-logo" />
+        </div>
         <div className="logo-container">
           <img src={logo} alt="Logo" className="logo" />
         </div>
@@ -49,47 +49,21 @@ export default function FormPage() {
           <form onSubmit={handleSubmit}>
             <div className="input-group">
               <label>Team Name</label>
-              <input
-                type="text"
-                name="teamName"
-                value={formData.teamName}
-                onChange={handleChange}
-                required
-              />
+              <input type="text" name="teamName" value={formData.teamName} onChange={handleChange} required />
             </div>
             <div className="input-group">
               <label>Leader Name</label>
-              <input
-                type="text"
-                name="leaderName"
-                value={formData.leaderName}
-                onChange={handleChange}
-                required
-              />
+              <input type="text" name="leaderName" value={formData.leaderName} onChange={handleChange} required />
             </div>
             <div className="input-group">
               <label>Roll No</label>
-              <input
-                type="text"
-                name="rollNo"
-                value={formData.rollNo}
-                onChange={handleChange}
-                required
-              />
+              <input type="text" name="rollNo" value={formData.rollNo} onChange={handleChange} required />
             </div>
             <div className="input-group">
               <label>Phone No</label>
-              <input
-                type="tel"
-                name="phoneNo"
-                value={formData.phoneNo}
-                onChange={handleChange}
-                required
-              />
+              <input type="tel" name="phoneNo" value={formData.phoneNo} onChange={handleChange} required />
             </div>
-            <button type="submit" className="submit-btn">
-              Start Quiz
-            </button>
+            <button type="submit" className="submit-btn">Start Quiz</button>
           </form>
         </div>
       </div>
